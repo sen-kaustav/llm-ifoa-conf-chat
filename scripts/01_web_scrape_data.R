@@ -40,7 +40,3 @@ df_sessions <-
   Session: {Activity}: {Title}
   Details: {Details}
   ")) 
-
-df_sessions |> 
-  filter(grepl("Cath", text)) |> 
-  View()
