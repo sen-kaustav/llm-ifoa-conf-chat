@@ -20,4 +20,6 @@ store <- ragnar_store_create(
 )
 
 ragnar_store_insert(store, df_sessions)
+ragnar_store_build_index(store)
+
 dbDisconnect(con)
