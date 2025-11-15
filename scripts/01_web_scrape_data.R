@@ -40,3 +40,6 @@ df_sessions <-
   Session: {Activity}: {Title}
   Details: {Details}
   ")) 
+
+# Save results
+write_csv(df_sessions, "data/session.csv")
